@@ -80,7 +80,11 @@ Araç, farklı işlem modları için çeşitli argümanları kabul eder:
       Ekrana_Yaz(MESAJ)
        Programı_Sonlandır
     BİTİR
-##📊 Akış Şeması
+## 📊 Akış Şeması (Flowchart)
+
+Sistemin operasyonel veri akışı aşağıdaki gibidir:
+
+```mermaid
 graph TD;
     A([Sistemi Başlat]) --> B[/Kullanıcı Girdisini Al/];
     B --> C{Doğrulama Kontrolü};
